@@ -1,5 +1,5 @@
 {
-  description = ''unicode symbols'';
+  description = ''Unicode symbols with Windows CMD fallbacks '';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-figures-v1_1_0.flake = false;
   inputs.src-figures-v1_1_0.owner = "lmariscal";
-  inputs.src-figures-v1_1_0.ref   = "refs/tags/v1.1.0";
+  inputs.src-figures-v1_1_0.ref   = "v1_1_0";
   inputs.src-figures-v1_1_0.repo  = "figures";
   inputs.src-figures-v1_1_0.type  = "github";
   
