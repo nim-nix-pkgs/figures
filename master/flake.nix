@@ -11,7 +11,6 @@
   inputs.src-figures-master.ref   = "refs/heads/master";
   inputs.src-figures-master.owner = "lmariscal";
   inputs.src-figures-master.repo  = "figures";
-  inputs.src-figures-master.dir   = "";
   inputs.src-figures-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

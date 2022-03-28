@@ -11,7 +11,6 @@
   inputs.src-figures-v1_2_0.ref   = "refs/tags/v1.2.0";
   inputs.src-figures-v1_2_0.owner = "lmariscal";
   inputs.src-figures-v1_2_0.repo  = "figures";
-  inputs.src-figures-v1_2_0.dir   = "";
   inputs.src-figures-v1_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
